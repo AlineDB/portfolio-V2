@@ -1,0 +1,16 @@
+/*
+
+!Doc
+!.gitignore
+!README.md
+!aline_portfolio.sql
+!package.json
+!package-lock.json
+!webpack.mix.js
+
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/brutal
+/wp-content/themes/brutal/public
