@@ -13,7 +13,7 @@ La première version se trouve [ici](https://github.com/AlineDB/Aline-portfolio)
 
 L'analyse et les personas n'ont pas changé -> [voir](https://github.com/AlineDB/Aline-portfolio/blob/8cf5d4585e2d595c578bf5667efcff27cb049399/Doc/Analyse%20et%20personas%20portfolio.docx)
 
-Vous trouverez le wireframe du nouveau design -> [ici]()
+Vous trouverez le wireframe du nouveau design -> [ici](https://github.com/AlineDB/portfolio-V2/tree/main/doc/design)
 
 L'ancien design ainsi que le prototype se trouvent toujours -> [ici](https://github.com/AlineDB/Aline-portfolio/blob/8cf5d4585e2d595c578bf5667efcff27cb049399/Doc/portfolio_wireframe_complet.png)
 
