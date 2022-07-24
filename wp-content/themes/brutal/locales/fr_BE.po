@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-07-24 13:59+0200\n"
+"PO-Revision-Date: 2022-07-24 14:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_BE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:3
+msgid "Pied de page"
+msgstr "Pied de page"
+
+#: header.php:7
+msgid "Aline votre webdesign"
+msgstr "Aline votre webdesign"
+
+#: header.php:28
+msgid "Navigation principale"
+msgstr "Navigation principale"
+
+#: index.php:5
+msgid "Qui est Aline ?"
+msgstr "Qui est Aline ?"
+
+#: index.php:8
+msgid ""
+"Jeune femme mariée et mère de famille, je souhaite dorénavant me consacrer à "
+"ma carrière.\n"
+"            J'ai pu exercer en tant que commis de cuisine, employée "
+"callcenter, caissière et employée administrative. Aujourd'hui, je souhaite\n"
+"                me spécialiser dans le webdesign tout en proposant mes "
+"diverses compétences pour compléter mon savoir-faire."
+msgstr ""
+"Jeune femme mariée et mère de famille, je souhaite dorénavant me consacrer à "
+"ma carrière. J’ai pu exercer en tant que commis de cuisine, employée "
+"callcenter, caissière et employée administrative. Aujourd’hui, je souhaite "
+"me spécialiser dans le webdesign tout en proposant mes diverses compétences "
+"pour compléter mon savoir-faire."
+
+#: index.php:18
+msgid "Mes derniers projets web et design"
+msgstr "Mes derniers projets web et design"
+
+#: index.php:33 index.php:57
+msgid "Voir en détails"
+msgstr "Voir en détails"
+
+#: index.php:36
+msgid "Il n'y a pas de projet à vous montrer ..."
+msgstr "Il n’y a pas de projet à vous montrer …"
+
+#: index.php:42 template_others.php:5
+msgid "Webdesign mais aussi"
+msgstr "Webdesign mais aussi"
+
+#: index.php:60 template-projet.php:23
+msgid "Il n'y a pas de projet à vous monter ..."
+msgstr "Il n’y a pas de projet à vous monter …"
+
+#: index.php:65
+msgid "Quelles sont les compétences d'Aline"
+msgstr "Quelles sont les compétences d’Aline"
+
+#: index.php:67
+msgid "Languages"
+msgstr "Languages"
+
+#: index.php:78
+msgid "Logiciels"
+msgstr "Logiciels"
+
+#: index.php:91
+msgid "Organisée"
+msgstr "Organisée"
+
+#: index.php:109
+msgid "Bonne humeur"
+msgstr "Bonne humeur"
+
+#: index.php:127
+msgid "Investie"
+msgstr "Investie"
+
+#: index.php:145
+msgid "Télétravail possible"
+msgstr "Télétravail possible"
+
+#: index.php:163
+msgid "Capacité d'adaptation"
+msgstr "Capacité d’adaptation"
+
+#: index.php:181
+msgid "Communication aisée"
+msgstr "Communication aisée"
+
+#: index.php:199
+msgid "N'hésite pas à se former"
+msgstr "N’hésite pas à se former"
+
+#: index.php:219
+msgid "Télécharger le CV d'Aline"
+msgstr "Télécharger le CV d’Aline"
+
+#: single-Autres.php:12 single-Projets.php:12
+msgid "Détails du projet"
+msgstr "Détails du projet"
+
+#: single-Autres.php:14 single-Projets.php:14
+msgid "Date du projet"
+msgstr "Date du projet"
+
+#: single-Autres.php:20 single-Projets.php:20
+msgid "Cours correspondant"
+msgstr "Cours correspondant"
+
+#: single-Autres.php:25 single-Projets.php:25
+msgid "Catégorie(s)"
+msgstr "Catégorie(s)"
+
+#: template-contact.php:12
+msgid "Oups, il y a un (des) erreur(s) dans le formulaires"
+msgstr "Oups, il y a un (des) erreur(s) dans le formulaires"
+
+#: template-contact.php:15
+msgid "Votre prénom"
+msgstr "Votre prénom"
+
+#: template-contact.php:19
+msgid "Votre nom"
+msgstr "Votre nom"
+
+#: template-contact.php:23
+msgid "Votre téléphone"
+msgstr "Votre téléphone"
+
+#: template-contact.php:27
+msgid "Votre mail"
+msgstr "Votre mail"
+
+#: template-contact.php:31
+msgid "Votre message"
+msgstr "Votre message"
+
+#: template-contact.php:38
+msgid "conditions générales d'utilisation"
+msgstr "conditions générales d’utilisation"
+
+#: template-contact.php:38
+msgid "J'accepte les :conditions"
+msgstr "J’accepte les :conditions"
+
+#: template-contact.php:45
+msgid "Envoyez"
+msgstr "Envoyez"
+
+#: template-contact.php:49
+msgid "Merci votre message a bien été envoyé"
+msgstr "Merci votre message a bien été envoyé"
+
+#: template-projet.php:5
+msgid "Mes derniers projets"
+msgstr "Mes derniers projets"
+
+#: template_others.php:20
+msgid "Voir le projet"
+msgstr "Voir le projet"
+
+#: template_others.php:23
+msgid "Il n'y a pas de projet à vous monter..."
+msgstr "Il n’y a pas de projet à vous monter…"
