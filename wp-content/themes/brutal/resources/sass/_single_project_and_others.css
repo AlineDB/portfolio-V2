@@ -1,0 +1,41 @@
+/*Permanent*/
+
+.singleProjet__content{
+    line-height: 40px;
+}
+.singleProjet__title{
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+.singleProjet__fig{
+    display: none;
+}
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+    .layout__singleProjet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .singleProjet__title{
+        grid-column: 2;
+    }
+    .singleProjet__details{
+        grid-column: 2;
+    }
+    .wp-caption .alignnone{
+        display: flex;
+    }
+}

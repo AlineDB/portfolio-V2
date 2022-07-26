@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
     <section class="layout__projets projets">
-        <h2 class="projets__title"><?= __('Mes derniers projets', 'Aline-portfolio-brutal'); ?></h2>
+        <h2 class="projets__title"><?= __('Mes projets web et design', 'Aline-portfolio-brutal'); ?></h2>
         <div class="projects__content">
             <?=  the_content();  ?>
         </div>
@@ -12,9 +12,6 @@
                     <div class="project__card">
                         <header class="project__head">
                             <h3 class="project__title"><?= get_the_title(); ?></h3>
-                            <p class="project__date"><time class="project__time" datetime="<?= date('c', strtotime(get_field('project_date', false, false))); ?>">
-                                    <?= ucfirst(date_i18n('F, Y', strtotime(get_field('project_date', false, false)))); ?>
-                                </time></p>
                         </header>
                         <figure class="project__fig">
                             <?= get_the_post_thumbnail(null, 'medium_large', ['class' => 'project__thumb']); ?>

@@ -1,0 +1,20 @@
+/*Attention certaines classes sont identiques au layout projects (title,card,link, ...)*/
+
+
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+    .layout__others{
+        display: grid;
+        grid-template-columns: 40%  60%;
+    }
+    .layout__others .projects__title{
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+    }
+    .layout__others .projects__container{
+        grid-row: 1;
+        grid-column: 2;
+    }
+}

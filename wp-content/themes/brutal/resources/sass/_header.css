@@ -1,5 +1,8 @@
 /*Permanent*/
-
+.header{
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
 .nav__title, .header__tagline{
     display: none;
 }
@@ -12,7 +15,6 @@
 .nav__container .nav__item:hover{
     background-color: black;
     color: white;
-    border: 1px black solid;
 }
 .nav__container .nav__link:hover{
     color:white;
@@ -35,7 +37,9 @@ h1{
 h1:hover{
     background-color: white;
     color: black;
+    border-right: 2px black solid;
 }
+
 
 
 /*Ecran sous 767px*/
@@ -61,12 +65,11 @@ h1:hover{
 }
 
 /*Ecran à partir de 768px*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .header__title {
         text-align: center;
         padding: 0.5em;
     }
-
     .nav__container {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -91,35 +94,35 @@ h1:hover{
         justify-content: space-between;
     }
     .header__title{
-        height: 159px;
+        height: 161px;
         text-align: center;
         padding-left: 0.5em;
         padding-right: 0.5em;
-        padding-top: 0.5em;
+        padding-top: 1em;
     }
     .nav__container{
         display: flex;
     }
     .nav__container .nav__item{
-        border: 2px black solid;
-        border-right: none;
+        border-right: 2px black solid;
         text-align: right;
-        height: 150px;
+        height: 169px;
         padding-top: 2em;
         padding-right: 0.2em;
     }
     .nav__container .nav__link{
         padding: 2em 0.2em 3em 5em;
+        text-align: right;
     }
     .languages__container{
         text-align: center;
-        border: 2px black solid;
-        height: 165px;
-        min-width: 210px;
+        border-right: 2px black solid;
+        height: 169px;
         padding: 2em 0.2em 0em 3em;
     }
     .nav__languages{
         margin-top: 0.2em;
+        margin-right: 0.5em;
     }
 
 }

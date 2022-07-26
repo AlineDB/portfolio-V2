@@ -1,0 +1,29 @@
+/*Permanent*/
+.skills__subtitle{
+    text-align: center;
+    padding-top: 0.5em;
+}
+.skills__langages, .skills__programs{
+    margin-bottom: 2em;
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+.skills__li{
+    list-style-type: square;
+    padding-bottom: 0.5em;
+}
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+
+}

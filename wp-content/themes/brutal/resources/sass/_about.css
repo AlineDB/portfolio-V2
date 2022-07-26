@@ -1,6 +1,6 @@
 /*Permanent*/
 .about__title{
-    font-size: 40px;
+    font-size: 2em; /*40/20*/
     color: white;
     background-color: black;
     text-align: center;
@@ -8,6 +8,9 @@
 }
 .layout__about{
     border-bottom: 2px black solid;
+}
+.about__description{
+    line-height: 40px;
 }
 
 /*Ecran sous 767px*/
@@ -21,6 +24,9 @@
     .about__fig{
         text-align: center;
         margin-bottom: 2em;
+    }
+    .layout__about .nav__link{
+        padding-left: 5em;
     }
 }
 

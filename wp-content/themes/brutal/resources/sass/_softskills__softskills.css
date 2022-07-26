@@ -1,0 +1,36 @@
+/*Permanent*/
+.skills__softskills{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    display: grid;
+}
+.skills__softskills .skills__li{
+    list-style-type: none;
+    padding-bottom: 1.5em;
+}
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+    .skills__softskills{
+        margin-left: 30%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) {
+    .softskills{
+        border-top: 2px black solid;
+    }
+    .skills__softskills{
+        padding-left: 2em;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+    }
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+
+}

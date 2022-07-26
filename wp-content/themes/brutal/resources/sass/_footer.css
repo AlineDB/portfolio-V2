@@ -5,11 +5,11 @@
 }
 .footer__body{
     border-top: 2px black solid;
+    border-bottom: 2px black solid;
     margin-top: 2em;
 }
  .footer .nav__item{
     padding: 1em;
-    border-bottom: 2px black solid;
 }
 .footer .nav__item:hover{
     background-color: black;
@@ -36,16 +36,25 @@
     text-align: center;
 }
 .footer__links ul{
-    margin: 5%;
+    margin-top: 1em;
     display: flex;
+    flex-wrap: wrap;
 }
 .footer__links ul li{
-    margin-right: 2em;
+    margin-left: 1em;
 }
 
 /*Ecran sous 767px*/
 @media screen and (max-width: 767px){
-
+    .footer .nav__link{
+        padding: 1em 8em
+    }
+    .footer .nav__item{
+        border-bottom: 2px black solid ;
+    }
+    .footer__links ul li{
+        margin-bottom: 1em;
+    }
 }
 
 /*Ecran à partir de 768px*/
@@ -56,12 +65,15 @@
     }
     .footer .nav__item{
         border-right: 2px black solid;
+        border-bottom: 2px black solid;
         text-align: right;
     }
     .footer .nav__link{
-        padding: 1em 1em 1em 16em;
+        padding: 1em 1em 1em 14em;
     }
-
+    .footer__links ul li{
+        margin-bottom: 1em;
+    }
 }
 
 /*Ecran à partir de 1200px (pc)*/
@@ -77,6 +89,7 @@
         border-right: 2px black solid;
     }
     .footer .nav__link{
-        padding: 1em 1em 1em 10em;
+        padding-left: 14em;
+        text-align: right;
     }
 }

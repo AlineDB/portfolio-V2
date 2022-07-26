@@ -21,9 +21,6 @@ Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant m
                     <div class="project__card">
                         <header class="project__head">
                             <h3 class="project__title"><?= get_the_title(); ?></h3>
-                            <p class="project__date"><time class="project__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
-                                    <?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
-                                </time></p>
                         </header>
                         <figure class="project__fig">
                             <?= get_the_post_thumbnail(null, 'post-thumbnail', ['class' => 'project__thumb']); ?>
@@ -45,9 +42,6 @@ Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant m
                     <div class="project__card">
                         <header class="project__head">
                             <h3 class="project__title"><?= get_the_title(); ?></h3>
-                            <p class="project__date"><time class="project__time" datetime="<?= date('c', strtotime(get_field('date', false, false))); ?>">
-                                    <?= ucfirst(date_i18n('F, Y', strtotime(get_field('date', false, false)))); ?>
-                                </time></p>
                         </header>
                         <figure class="project__fig">
                             <?= get_the_post_thumbnail(null, 'post-thumbnail', ['class' => 'project__thumb']); ?>
