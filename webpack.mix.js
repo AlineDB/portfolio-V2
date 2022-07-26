@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.setPublicPath('./wp-content/themes/brutal/public')
     .js('wp-content/themes/brutal/resources/js/script.js', 'wp-content/themes/brutal/public/js/')
-    .sass('wp-content/themes/brutal/resources/sass/style.sass', 'wp-content/themes/brutal/public/css/')
+    .sass('wp-content/themes/brutal/resources/sass/style.scss', 'wp-content/themes/brutal/public/css/')
     .options({
         processCssUrls: false
     })

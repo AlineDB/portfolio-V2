@@ -33,18 +33,16 @@ msgstr "Qui est Aline ?"
 
 #: index.php:8
 msgid ""
-"Jeune femme mariée et mère de famille, je souhaite dorénavant me consacrer à "
-"ma carrière.\n"
-"            J'ai pu exercer en tant que commis de cuisine, employée "
-"callcenter, caissière et employée administrative. Aujourd'hui, je souhaite\n"
-"                me spécialiser dans le webdesign tout en proposant mes "
-"diverses compétences pour compléter mon savoir-faire."
+
+"Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma carrière. "
+"J’ai pu exercer divers métiers et développer mes compétences en tant que commis de cuisine,"
+ "employée callcenter, caissière et employée administrative."
+"Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant mes compétences pour compléter mon savoir-faire."
 msgstr ""
-"Jeune femme mariée et mère de famille, je souhaite dorénavant me consacrer à "
-"ma carrière. J’ai pu exercer en tant que commis de cuisine, employée "
-"callcenter, caissière et employée administrative. Aujourd’hui, je souhaite "
-"me spécialiser dans le webdesign tout en proposant mes diverses compétences "
-"pour compléter mon savoir-faire."
+"Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma carrière. "
+"J’ai pu exercer divers métiers et développer mes compétences en tant que commis de cuisine,"
+ " employée callcenter, caissière et employée administrative."
+"Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant mes compétences pour compléter mon savoir-faire."
 
 #: index.php:18
 msgid "Mes derniers projets web et design"

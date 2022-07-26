@@ -4,12 +4,13 @@
     <main class="layout contact">
         <h2 class="contact__title"><?= get_the_title(); ?></h2>
         <div class="contact__content">
-            <?=  get_the_content();  ?>
-        </div>
+            <figure class="about__fig">
+                <img src="<?php echo get_template_directory_uri() . '/img/Aline_pixel.png'; ?>" alt="Photo d'Aline" width="150" height="200">
+            </figure>
         <?php if(! isset($_SESSION['contact_form_feedback']) || ! $_SESSION['contact_form_feedback']['success']) : ?>
-            <form action="https://portfolio.aline-db.be/fr/wp-admin/admin-post.php" method="post" class="contact__form" >
+            <form action="<?= get_home_url(); ?>/wp-admin/admin-post.php" method="post" class="contact__form" >
                 <?php if(isset($_SESSION['contact_form_feedback'])) : ?>
-                    <p><? __('Oups, il y a un (des) erreur(s) dans le formulaires', 'Aline-portfolio-brutal'); ?></p>
+                    <p><?= __('Oups, il y a un (des) erreur(s) dans le formulaires', 'Aline-portfolio-brutal'); ?></p>
                 <?php endif; ?>
                 <div class="form__field">
                     <label for="firstname" class="form__label"><?= __('Votre prénom', 'Aline-portfolio-brutal'); ?> :</label>
@@ -35,7 +36,7 @@
                 <div class="form__field">
                     <label for="rules" class="form__checkbox">
                         <input type="checkbox" name="rules"  id="rules" value="1">
-                        <span><?= str_replace(':conditions', '<a class="form__link" href="https://portfolio.aline-db.be/fr/politique-de-confidentialite/">' . __('conditions générales d\'utilisation', 'Aline-portfolio-brutal') . '</a>', __('J\'accepte les :conditions', 'Aline-portfolio-brutal')); ?>
+                        <span><?= str_replace(':conditions', '<a class="form__link" href="https://http://localhost:8888/portfolio2/mentions-legales/">' . __('conditions générales d\'utilisation', 'Aline-portfolio-brutal') . '</a>', __('J\'accepte les :conditions', 'Aline-portfolio-brutal')); ?>
                             .</span>
                     </label>
                 </div>

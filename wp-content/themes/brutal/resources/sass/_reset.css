@@ -46,3 +46,32 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
+html{
+    background-color: white;
+    line-height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Permanent*/
+
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+
+}

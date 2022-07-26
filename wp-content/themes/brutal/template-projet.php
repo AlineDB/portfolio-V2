@@ -3,6 +3,9 @@
 
     <section class="layout__projets projets">
         <h2 class="projets__title"><?= __('Mes derniers projets', 'Aline-portfolio-brutal'); ?></h2>
+        <div class="projects__content">
+            <?=  the_content();  ?>
+        </div>
         <div class="projets__container">
             <?php if(($projects = dw_get_projects(300))->have_posts()): while($projects->have_posts()): $projects->the_post(); ?>
                 <article class="project">

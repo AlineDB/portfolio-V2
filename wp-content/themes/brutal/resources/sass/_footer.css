@@ -1,0 +1,82 @@
+/*Permanent*/
+
+.footer__title{
+    display: none;
+}
+.footer__body{
+    border-top: 2px black solid;
+    margin-top: 2em;
+}
+ .footer .nav__item{
+    padding: 1em;
+    border-bottom: 2px black solid;
+}
+.footer .nav__item:hover{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+}
+.footer .nav__link:hover{
+    color:white;
+    text-decoration: white underline;
+}
+
+
+
+/*Links socials medias*/
+.link__facebook, .link__behance, .link__kindle, .link__linkedin, .link__github{
+    fill: black;
+    padding: 1em;
+}
+.link__facebook:hover, .link__behance:hover, .link__kindle:hover, .link__linkedin:hover, .link__github:hover{
+    stroke: white;
+    background-color: black;
+}
+.footer__body{
+    text-align: center;
+}
+.footer__links ul{
+    margin: 5%;
+    display: flex;
+}
+.footer__links ul li{
+    margin-right: 2em;
+}
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .footer .footer__menu{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .footer .nav__item{
+        border-right: 2px black solid;
+        text-align: right;
+    }
+    .footer .nav__link{
+        padding: 1em 1em 1em 16em;
+    }
+
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+    .footer__body{
+        display: flex;
+    }
+    .footer__menu{
+        display: flex;
+    }
+    .footer .nav__item{
+        font-size: 1.5em;
+        border-right: 2px black solid;
+    }
+    .footer .nav__link{
+        padding: 1em 1em 1em 10em;
+    }
+}

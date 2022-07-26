@@ -1,0 +1,125 @@
+/*Permanent*/
+
+.nav__title, .header__tagline{
+    display: none;
+}
+
+.nav__container{
+    font-size: 1.5em; /*30/20*/
+
+}
+
+.nav__container .nav__item:hover{
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+}
+.nav__container .nav__link:hover{
+    color:white;
+    text-decoration: white underline;
+}
+
+.languages__container:hover .nav__locale, .languages__container:hover{
+    background-color: black;
+    color: white;
+}
+.nav__languages .nav__locale:hover{
+    text-decoration: white underline;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Ecran sous 767px*/
+@media screen and (max-width: 767px){
+    .header__title{
+        text-align: center;
+        padding: 0.5em;
+    }
+    .nav__container{
+        text-align: center;
+    }
+    .nav__container .nav__item, .languages__container{
+        border-bottom: 2px black solid;
+        padding: 0.2em;
+    }
+    .nav__link{
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+    .nav__languages{
+        margin-top: 0.2em;
+    }
+}
+
+/*Ecran à partir de 768px*/
+@media screen and (min-width: 768px) {
+    .header__title {
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .nav__container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .nav__container .nav__item, .languages__container{
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 0.5em;
+    }
+    .nav__link{
+        padding-right: 10em;
+    }
+    .nav__languages{
+        margin-top: 0.2em;
+    }
+}
+
+/*Ecran à partir de 1200px (pc)*/
+@media screen and (min-width:1200px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__title{
+        height: 159px;
+        text-align: center;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 0.5em;
+    }
+    .nav__container{
+        display: flex;
+    }
+    .nav__container .nav__item{
+        border: 2px black solid;
+        border-right: none;
+        text-align: right;
+        height: 150px;
+        padding-top: 2em;
+        padding-right: 0.2em;
+    }
+    .nav__container .nav__link{
+        padding: 2em 0.2em 3em 5em;
+    }
+    .languages__container{
+        text-align: center;
+        border: 2px black solid;
+        height: 165px;
+        min-width: 210px;
+        padding: 2em 0.2em 0em 3em;
+    }
+    .nav__languages{
+        margin-top: 0.2em;
+    }
+
+}
