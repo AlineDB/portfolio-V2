@@ -40,6 +40,9 @@
 .contact__link{
     margin-left: 1em;
 }
+.contact__fig{
+    text-align: center;
+}
 
 /*Form basic appearance and focus and error*/
 .form__link{
@@ -85,9 +88,6 @@
 
 /*Ecran sous 767px*/
 @media screen and (max-width: 767px){
-    .contact__fig{
-        text-align: center;
-    }
     .contact__form{
         text-align: right;
         padding: 0.5em 0.3em;
