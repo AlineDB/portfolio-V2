@@ -15,6 +15,7 @@
 .nav__container .nav__item:hover{
     background-color: black;
     color: white;
+    animation: link_anim 3s;
 }
 .nav__container .nav__link:hover{
     color:white;
@@ -24,6 +25,7 @@
 .languages__container:hover .nav__locale, .languages__container:hover{
     background-color: black;
     color: white;
+    animation: link_anim 3s;
 }
 .nav__languages .nav__locale:hover{
     text-decoration: white underline;
@@ -40,7 +42,15 @@ h1:hover{
     border-right: 2px black solid;
 }
 
-
+/*Ecran sous 470px*/
+@media screen and (max-width: 470px){
+    .header .nav__link{
+        font-size: 0.5em;
+    }
+    .header .nav__languages{
+        font-size: 0.5em;
+    }
+}
 
 /*Ecran sous 767px*/
 @media screen and (max-width: 767px){

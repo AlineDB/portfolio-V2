@@ -1,0 +1,19 @@
+/*Permanent*/
+
+.layout__politique{
+    line-height: 40px;
+    padding: 0.5em;
+}
+.contact__politique{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+}
+.layout__politique .contact__content{
+    padding: 0.5em;
+}
+.layout__politique h3{
+    margin-top: 1.5em;
+}

@@ -1,9 +1,9 @@
 
 /*Permanent*/
 .softskill__button:hover{
-    background-color: black;
     color:white;
     text-decoration: underline white;
+    animation: link_anim 3s;
 }
 .skills__title{
     text-align: center;

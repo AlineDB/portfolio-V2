@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= __('Aline votre webdesign', 'Aline-portfolio-brutal'); ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,10 +22,9 @@
             font-family: "Noto Sans Mono", monospace;
         }
     </style>
-
     <script type="text/javascript" src="<?= dw_mix('js/script.js'); ?>"></script>
     <meta name="description" content="Projet Portfolio par Aline DE BARROS reprenant ses projets web et design mais aussi son implication en politique et ses livres !">
-    <meta name="DE BARROS Aline">
+    <meta name="author" content="DE BARROS Aline">
     <meta name="keywords" content="CV, Aline, études, expériences, projets, languages, employée, politique, livres, travail, job, HEPL, bachelier, infographie, web, design, sites, HTML, CSS, JS,
 PHP, 3D, vidéo, Adobe, ">
 </head>

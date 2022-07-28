@@ -167,3 +167,7 @@ function dw_mix($path)
     // Récupérer & retourner le chemin versionné
     return get_stylesheet_directory_uri() . '/public' . $manifest[$path];
 }
+
+//désactive l'éditeur de contenu dans les pages où les champs ACF sont définis
+
+

@@ -8,6 +8,12 @@
         <div class="singleProjet__content">
             <?=  the_content();  ?>
         </div>
+        <div class="singleProjet__description">
+            <?= get_field('description', false, false);  ?>
+        </div>
+        <div class="singleProjet__jobs">
+            <?= get_field('taches', false, false);  ?>
+        </div>
         <aside class="singleProjet__details">
             <h3 class="singleProjet__subtitle"><?= __('Détails du projet', 'Aline-portfolio-brutal'); ?></h3>
             <dl class="singleProjet__def">

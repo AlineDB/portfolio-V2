@@ -58,6 +58,17 @@ a{
     color: black;
 }
 
+@keyframes link_anim {
+    from {background-color: white;}
+    to {background-color: black;}
+}
+
+@keyframes link_anim_inverse {
+    from {background-color: black;}
+    to {background-color: white;}
+}
+
+
 /*Permanent*/
 
 
