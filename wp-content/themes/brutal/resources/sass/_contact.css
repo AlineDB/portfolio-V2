@@ -92,11 +92,24 @@
         text-align: right;
         padding: 0.5em 0.3em;
     }
+    .form__label{
+        font-size: 0.8em;
+    }
 }
 
 /*Ecran à partir de 768px*/
 @media screen and (min-width: 768px) {
-
+    .contact__form{
+        text-align: right;
+        margin-right: 30%;
+    }
+    .form__label{
+        margin-left: 1em;
+        margin-right: 4em;
+    }
+    .form__action{
+        margin-left: 50%;
+    }
 }
 
 /*Ecran à partir de 1200px (pc)*/

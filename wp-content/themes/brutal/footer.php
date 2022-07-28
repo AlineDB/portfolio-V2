@@ -2,6 +2,7 @@
 <footer class="footer">
             <h2 class="footer__title"><?= __('Pied de page', 'Aline-portfolio-brutal'); ?></h2>
     <section class="footer__body">
+        <h3></h3>
             <ul class="footer__menu">
                 <?php foreach(dw_get_menu_items('footer') as $link): ?>
                     <li class="<?= $link->getBemClasses('nav__item'); ?>">

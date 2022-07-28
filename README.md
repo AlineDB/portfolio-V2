@@ -30,3 +30,34 @@ style, polices, images, ...). J'ai bien entendu tout noté et pris en compte lor
 Il faut donc continuer à creuser et si je veux un design aussi poussé je dois y aller à fond ! 
 
 ## Tests
+
+### W3C HTML
+Deux warning concernant un titre vide et le type pas nécessaire pour le script js.
+Deux erreurs concenrnat les deux div dans les li de la navigation langages (fr/en) dans le header.
+
+### W3C CSS
+Une erreur qui dit que le charset n'apparaît pas au début du fichier alors qu'il est bien en première ligne dnas le head du site. Le reste est validé, des messages 
+concernant des webkit étant extension propriétaire sont mis en avertissements.
+
+### W3C Internationalisation
+Pas d'erreur. Encodage caractère: UTF-8, lang=fr, autres langues = fr-be et en-gb.
+
+### W3C Link
+Deux messages pour Facebook et LinkedIn qui excluent les robots et un message d'erreur pour le lien Kindle qui ne peut être analysé que manuellement.
+
+### CSS Stats
+2 couleurs uniques, 4 background colors, les schémas n'ont pas de "gros" pics mais ont quand même certains scores élevés sans monter fort haut. 
+Peut-être dû aux paramètres de Wordpress car je n'utilise que les classe où les élément directement comme sélecteurs.
+
+### GT Metrix
+Classé A avec 90% de performance et 99% pour la structure pour un serveur basé au Canada et utilisé via Chrome sur un PC.
+Premier contenu chargé en 1.4s
+
+### Wave -> accessibility
+L'erreur pour le h3 vide est présente et un avertissement pour le lien de téléchargement pdf, pour le reste tout est ok: structure, contraste, hiérarchie, langues, alt médias.
+
+### Google test mobile friendly
+Message indiquant que le site est facile d'utilisation sur un site mobile.
+
+### I am responsive
+Aperçu sur 4 écrans : desktop, laptop, tablette et smartphone. Visuellement cela semble correct.

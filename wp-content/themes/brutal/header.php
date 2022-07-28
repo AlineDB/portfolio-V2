@@ -43,15 +43,15 @@ PHP, 3D, vidéo, Adobe, ">
                     </a>
                 </li>
             <?php endforeach; ?>
-
-          <div class="languages__container">
-                <?php foreach (pll_the_languages(['raw' => true]) as $code => $locale) : ?>
+        </ul>
+        <div class="languages__container">
+            <?php foreach (pll_the_languages(['raw' => true]) as $code => $locale) : ?>
                 <li class="nav__languages">
                     <a href="<?= $locale['url']; ?>" lang="<?= $locale['locale']; ?>"
                        hreflang="<?= $locale['locale']; ?>" class="nav__locale"
                        title="<?= $locale['name']; ?>"><?= $code; ?></a>
                     <?php endforeach; ?>
                 </li>
-            </div>
+        </div>
     </nav>
 </header>
