@@ -50,8 +50,8 @@ Deux messages pour Facebook et LinkedIn qui excluent les robots et un message d'
 Peut-être dû aux paramètres de Wordpress car je n'utilise que les classe où les élément directement comme sélecteurs.
 
 ### GT Metrix
-Classé A avec 90% de performance et 99% pour la structure pour un serveur basé au Canada et utilisé via Chrome sur un PC.
-Premier contenu chargé en 1.4s
+Classé A avec 88% de performance et 99% pour la structure pour un serveur basé au Canada et utilisé via Chrome sur un PC.
+Premier contenu chargé en 1.5s
 
 ### Wave -> accessibility
 L'erreur pour le h3 vide est présente et un avertissement pour le lien de téléchargement pdf, pour le reste tout est ok: structure, contraste, hiérarchie, langues, alt médias.

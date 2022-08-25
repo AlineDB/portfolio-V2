@@ -6,7 +6,7 @@
 !aline_portfolio.sql
 !package.json
 !package-lock.json
-!webpack.mix.js
+!../antilope-V2/webpack.mix.js
 
 !/wp-content
 /wp-content/*

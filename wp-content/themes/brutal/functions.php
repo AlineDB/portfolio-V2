@@ -1,15 +1,6 @@
 <?php
 //charger les fichiers nécessaires
 require_once(__DIR__ . '/Menus/PrimaryMenuItem.php');
-require_once(__DIR__ . '/Forms/BaseFormController.php');
-require_once(__DIR__ . '/Forms/ContactFormController.php');
-require_once(__DIR__ . '/Forms/Sanitizers/BaseSanitizer.php');
-require_once(__DIR__ . '/Forms/Sanitizers/TextSanitizer.php');
-require_once(__DIR__ . '/Forms/Sanitizers/EmailSanitizer.php');
-require_once(__DIR__ . '/Forms/Validators/BaseValidator.php');
-require_once(__DIR__ . '/Forms/Validators/RequiredValidator.php');
-require_once(__DIR__ . '/Forms/Validators/EmailValidator.php');
-require_once(__DIR__ . '/Forms/Validators/AcceptedValidator.php');
 
 // Lancer la sessions PHP pour pouvoir passer des variables de page en page
 add_action('init', 'dw_start_session', 1);
@@ -60,21 +51,6 @@ register_post_type('Autres', [
     'rewrite' => ['slug' => 'autres'],
 ]);
 
-// Enregistrer un  custom post-type pour les données du form
-register_post_type('message', [
-    'label' => 'Messages de contact',
-    'labels' => [
-        'name' => 'Messages de contact',
-        'singular_name' => 'Message de contact',
-    ],
-    'description' => 'Les messages envoyés par le formulaire de contact',
-    'public' => false,
-    'show_ui' => true,
-    'menu_position' => 10,
-    'menu_icon' => 'dashicons-buddicons-pm',
-    'capabilities' => array('create-posts'=> false,),
-    'map_meta_cap' => true,
-]);
 
 // Récupérer les projets via une requête Wordpress
 function dw_get_projects($count = 20)
@@ -132,15 +108,6 @@ function dw_get_menu_items($location){
     return $items;
 }
 
-
-//gérer l'envoi de formulaire personnalisé
-
-add_action('admin_post_submit_contact_form', 'dw_handle_submit_contact_form');
-
-function dw_handle_submit_contact_form(){
-    // Instancier le controlleur du form
-    $form = new ContactFormController($_POST);
-}
 
 // Fonction qui charge les assets compilés et retourne leure chemin absolu
 
