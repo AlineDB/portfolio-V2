@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2022-07-24 13:59+0200\n"
-"PO-Revision-Date: 2022-07-28 12:57+0200\n"
+"POT-Creation-Date: 2022-09-05 12:54+0200\n"
+"PO-Revision-Date: 2022-09-05 12:56+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -23,7 +23,7 @@ msgstr "Footer"
 msgid "Aline votre webdesign"
 msgstr "Aline your webdesign"
 
-#: header.php:28
+#: header.php:37
 msgid "Navigation principale"
 msgstr "Main navigation"
 
@@ -33,137 +33,125 @@ msgstr "Who is Aline?"
 
 #: index.php:8
 msgid ""
-"Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma carrière. J’ai pu exercer divers métiers et "
-"développer mes compétences en tant que commis de cuisine,employée callcenter, caissière et employée administrative."
-"Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant mes compétences pour compléter mon savoir-faire."
+"Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma "
+"carrière. J’ai pu exercer divers métiers et développer mes compétences en "
+"tant que commis de cuisine, employée callcenter, caissière et employée "
+"administrative.\n"
+"Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant "
+"mes compétences pour compléter mon savoir-faire."
 msgstr ""
-"As a married woman with a family, I now want to focus on my career. I have been able to work in various jobs and develop my "
-"skills as a kitchen assistant,call centre clerk, cashier and administrative clerk.Today, I would like to specialise in web "
-"design while offering my skills to complement my expertise."
+"As a married woman with a family, I now want to focus on my career. I have "
+"been able to work in various jobs and develop my skills as a cook, employee "
+"in a call centrer, cashier and secretary.Today, I would like to specialise "
+"in web design while offering my skills to complement my expertise."
 
-#: index.php:18
+#: index.php:17
 msgid "Mes derniers projets web et design"
 msgstr "My latest web and design projects"
 
-#: index.php:33 index.php:57
+#: index.php:29 index.php:50
 msgid "Voir en détails"
 msgstr "See more"
 
-#: index.php:36
+#: index.php:32
 msgid "Il n'y a pas de projet à vous montrer ..."
 msgstr "There is no project to show you…"
 
-#: index.php:42 template_others.php:5
+#: index.php:38 template_others.php:5
 msgid "Webdesign mais aussi"
 msgstr "Webdesign but also"
 
-#: index.php:60 template-projet.php:23
+#: index.php:53 template-projet.php:23
 msgid "Il n'y a pas de projet à vous monter ..."
 msgstr "There is no project to show you…"
 
-#: index.php:65
+#: index.php:58
 msgid "Quelles sont les compétences d'Aline"
 msgstr "What are Aline’s skills?"
 
-#: index.php:67
+#: index.php:60
 msgid "Languages"
 msgstr "Languages"
 
-#: index.php:78
+#: index.php:71
 msgid "Logiciels"
 msgstr "Software"
 
-#: index.php:91
+#: index.php:84
 msgid "Organisée"
 msgstr "Organised"
 
-#: index.php:109
+#: index.php:102
 msgid "Bonne humeur"
 msgstr "Good mood"
 
-#: index.php:127
+#: index.php:120
 msgid "Investie"
 msgstr "Invested"
 
-#: index.php:145
+#: index.php:138
 msgid "Télétravail possible"
 msgstr "Teleworking possible"
 
-#: index.php:163
+#: index.php:156
 msgid "Capacité d'adaptation"
 msgstr "Adaptability"
 
-#: index.php:181
+#: index.php:174
 msgid "Communication aisée"
 msgstr "Easy communication"
 
-#: index.php:199
+#: index.php:192
 msgid "N'hésite pas à se former"
 msgstr "Do not hesitate to train"
 
-#: index.php:219
+#: index.php:212
 msgid "Télécharger le CV d'Aline"
 msgstr "Download Aline’s CV"
 
-#: single-Autres.php:12 single-Projets.php:12
+#: single-autres.php:18 single-projets.php:18
 msgid "Détails du projet"
 msgstr "Project details"
 
-#: single-Autres.php:14 single-Projets.php:14
+#: single-autres.php:20 single-projets.php:20
 msgid "Date du projet"
 msgstr "Date of the project"
 
-#: single-Autres.php:20 single-Projets.php:20
+#: single-autres.php:26 single-projets.php:26
 msgid "Cours correspondant"
 msgstr "Corresponding course"
 
-#: single-Autres.php:25 single-Projets.php:25
+#: single-autres.php:31 single-projets.php:31
 msgid "Catégorie(s)"
 msgstr "Category(ies)"
 
-#: template-contact.php:12
-msgid "Oups, il y a un (des) erreur(s) dans le formulaires"
-msgstr "Oops, there is an error(s) in the form"
+#: template-contact.php:6
+msgid "Des questions ? Une demande ? Ou autre chose ?"
+msgstr "Any questions? A request? Or anything else?"
 
-#: template-contact.php:15
-msgid "Votre prénom"
-msgstr "Your first name"
+#: template-contact.php:8
+msgid ""
+"N’hésiter pas à me contacter afin d’en savoir plus sur un projet ou sur mon "
+"parcours, mes compétences, un devis, une recherche, un job, un partenariat … "
+"bref je répondrais dès que possible !\n"
+"                Pour cela remplissez le formulaire !"
+msgstr ""
+"Do not hesitate to contact me to know more about a project or my background, "
+"my skills, a quote, a research, a job, a partnership … in short I will "
+"answer as soon as possible!\n"
+"To do so, please fill in the form !"
 
-#: template-contact.php:19
-msgid "Votre nom"
-msgstr "Your last name"
+#: template-contact.php:18
+msgid "Coordonnées"
+msgstr "Contact details"
 
-#: template-contact.php:23
-msgid "Votre téléphone"
-msgstr "Your phone"
-
-#: template-contact.php:27
-msgid "Votre mail"
-msgstr "Your email"
-
-#: template-contact.php:31
-msgid "Votre message"
-msgstr "Your message"
-
-#: template-contact.php:38
-msgid "conditions générales d'utilisation"
-msgstr "general terms of use"
-
-#: template-contact.php:38
-msgid "J'accepte les :conditions"
-msgstr "I accept the :conditions"
-
-#: template-contact.php:45
-msgid "Envoyez"
-msgstr "Send"
-
-#: template-contact.php:49
-msgid "Merci votre message a bien été envoyé"
-msgstr "Thank you, your message has been sent"
+#: template-contact.php:22
+msgid "Mentions légales"
+msgstr "Legal information"
 
 #: template-projet.php:5
-msgid "Mes derniers projets"
-msgstr "My latest projects"
+msgid "Mes projets web et design"
+msgstr "My latest web and design projects"
 
 #: template_others.php:20
 msgid "Voir le projet"
@@ -172,3 +160,36 @@ msgstr "See the project"
 #: template_others.php:23
 msgid "Il n'y a pas de projet à vous monter..."
 msgstr "There is no project to show you…"
+
+#~ msgid "Oups, il y a un (des) erreur(s) dans le formulaires"
+#~ msgstr "Oops, there is an error(s) in the form"
+
+#~ msgid "Votre prénom"
+#~ msgstr "Your first name"
+
+#~ msgid "Votre nom"
+#~ msgstr "Your last name"
+
+#~ msgid "Votre téléphone"
+#~ msgstr "Your phone"
+
+#~ msgid "Votre mail"
+#~ msgstr "Your email"
+
+#~ msgid "Votre message"
+#~ msgstr "Your message"
+
+#~ msgid "conditions générales d'utilisation"
+#~ msgstr "general terms of use"
+
+#~ msgid "J'accepte les :conditions"
+#~ msgstr "I accept the :conditions"
+
+#~ msgid "Envoyez"
+#~ msgstr "Send"
+
+#~ msgid "Merci votre message a bien été envoyé"
+#~ msgstr "Thank you, your message has been sent"
+
+#~ msgid "Mes derniers projets"
+#~ msgstr "My latest projects"

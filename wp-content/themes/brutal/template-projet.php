@@ -17,7 +17,7 @@
                             <?= get_the_post_thumbnail(null, 'medium_large', ['class' => 'project__thumb']); ?>
                         </figure>
                     </div>
-                    <a href="<?= get_the_permalink(); ?>" class="project__link">Voir le projet "<?= get_the_title(); ?>"</a>
+                    <a href="<?= get_the_permalink(); ?>" class="project__link"><?= __('Voir le projet', 'Aline-portfolio-brutal'); ?> "<?= get_the_title(); ?>"</a>
                 </article>
             <?php endwhile; else: ?>
                 <p class="projects__empty"><?= __('Il n\'y a pas de projet à vous monter ...', 'Aline-portfolio-brutal'); ?></p>

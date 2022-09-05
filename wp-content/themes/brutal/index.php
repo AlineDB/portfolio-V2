@@ -5,8 +5,7 @@
         <h2 class="about__title"><?= __('Qui est Aline ?', 'Aline-portfolio-brutal'); ?></h2>
         <div class="about__container">
             <p class="about__description">
-                <?= __('Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma carrière. J’ai pu exercer divers métiers et développer mes compétences en tant que commis de cuisine, employée callcenter, caissière et employée administrative.
-Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant mes compétences pour compléter mon savoir-faire.', 'Aline-db-portfolio'); ?>
+                <?= __('Femme mariée et mère de famille, je souhaite dorénavant me consacrer à ma carrière. J’ai pu exercer divers métiers et développer mes compétences en tant que commis de cuisine, employée callcenter, caissière et employée administrative. Aujourd’hui, je souhaite me spécialiser dans le webdesign tout en proposant mes compétences pour compléter mon savoir-faire.', 'Aline-db-portfolio'); ?>
             </p>
             <figure class="about__fig">
                 <img src="<?php echo get_template_directory_uri() . '/img/aline_pixel_tete.png'; ?>" alt="Photo d'Aline">

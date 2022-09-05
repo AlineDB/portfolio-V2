@@ -1,6 +1,10 @@
 /*Attention certaines classes sont identiques au layout projects (title,card,link, ...)*/
 
+/*Permanent*/
 
+.singleProjet__content div{
+    margin-bottom: 2em;
+}
 
 /*Ecran à partir de 1200px (pc)*/
 @media screen and (min-width:1200px){

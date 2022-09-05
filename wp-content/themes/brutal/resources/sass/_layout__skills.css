@@ -21,8 +21,9 @@
     }
     .softskill__button{
         text-align: center;
-        padding: 1em 7em;
+        padding: 2em 4em;
         text-decoration: underline;
+        display:block;
     }
 }
 

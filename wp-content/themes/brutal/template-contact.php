@@ -12,14 +12,14 @@
             </figure>
         </div>
         <div class="contact__content">
-            <?php echo do_shortcode("[contact-form-7 id='182' title='Contact']"); ?>
+            <?php echo do_shortcode("[cf7form cf7key='contact']"); ?>
         </div>
         <div class="contact__information">
             <h3 class="contact__subtitle" itemscope itemtype="http://schema.org/Person"><?= __('Coordonnées', 'Aline-portfolio-brutal'); ?></h3>
                 <div itemprop="name"><strong>DE BARROS</strong></div>
                 <div itemprop="name"><strong>Aline</strong></div>
                 <div itemprop="homeLocation" content="Saint-Nicolas">Saint-Nicolas</div>
-                <a title="mentions légales" class="contact__link" href="http://aline-db.be/mentions-legales/"><?= __('Mentions légales', 'Aline-portfolio-brutal'); ?></a>
+                <a title="mentions légales" class="contact__link" href="<?= get_home_url() ?>/mentions-legales/"><?= __('Mentions légales', 'Aline-portfolio-brutal'); ?></a>
             </div>
     </main>
 <?php endwhile; endif; ?>

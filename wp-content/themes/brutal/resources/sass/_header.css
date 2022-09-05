@@ -9,7 +9,6 @@
 
 .nav__container{
     font-size: 1.5em; /*30/20*/
-
 }
 
 .nav__container .nav__item:hover{
@@ -30,6 +29,9 @@
 .nav__languages .nav__locale:hover{
     text-decoration: white underline;
 }
+.nav__languages{
+    text-transform: uppercase;
+}
 
 h1{
     background-color: black;
@@ -48,7 +50,7 @@ h1:hover{
         font-size: 0.5em;
     }
     .header .nav__languages{
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
 
@@ -65,12 +67,19 @@ h1:hover{
         border-bottom: 2px black solid;
         padding: 0.2em;
     }
+    .languages__container{
+        display:flex;
+        justify-content: center;
+
+    }
     .nav__link{
         padding-right: 4em;
         padding-left: 4em;
     }
     .nav__languages{
         margin-top: 0.2em;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
     }
 }
 
